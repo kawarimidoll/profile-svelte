@@ -1,33 +1,33 @@
 {
-	"name": "profile-svelte",
-	"version": "0.0.1",
-	"type": "module",
-	"scripts": {
-		"dev": "vite dev",
-		"build": "vite build",
-		"preview": "vite preview",
-		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
-		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
-		"format": "eslint . --fix",
-		"lint": "eslint ."
-	},
-	"devDependencies": {
-		"@antfu/eslint-config": "^3.8.0",
-		"@sveltejs/adapter-auto": "^3.3.1",
-		"@sveltejs/kit": "^2.8.0",
-		"@sveltejs/vite-plugin-svelte": "^4.0.0",
-		"@types/eslint": "^9.6.1",
-		"@unocss/eslint-plugin": "^0.62.4",
-		"eslint": "^9.14.0",
-		"eslint-plugin-format": "^0.1.2",
-		"eslint-plugin-svelte": "^2.46.0",
-		"svelte": "^5.1.13",
-		"svelte-check": "^4.0.6",
-		"svelte-eslint-parser": "^0.41.1",
-		"typescript": "^5.6.3",
-		"vite": "^5.4.10"
-	},
-	"dependencies": {
-		"@inlang/paraglide-sveltekit": "^0.11.5"
-	}
+  "name": "profile-svelte",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "vite dev",
+    "build": "vite build",
+    "preview": "vite preview",
+    "check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
+    "check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
+    "format": "eslint . --fix",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@inlang/paraglide-sveltekit": "^0.11.5"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^3.8.0",
+    "@sveltejs/adapter-auto": "^3.3.1",
+    "@sveltejs/kit": "^2.8.0",
+    "@sveltejs/vite-plugin-svelte": "^4.0.0",
+    "@types/eslint": "^9.6.1",
+    "@unocss/eslint-plugin": "^0.62.4",
+    "eslint": "^9.14.0",
+    "eslint-plugin-format": "^0.1.2",
+    "eslint-plugin-svelte": "^2.46.0",
+    "svelte": "^5.1.13",
+    "svelte-check": "^4.0.6",
+    "svelte-eslint-parser": "^0.41.1",
+    "typescript": "^5.6.3",
+    "vite": "^5.4.10"
+  }
 }
