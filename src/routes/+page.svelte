@@ -1,4 +1,5 @@
 <script>
+  import TypeWriter from '$lib/components/TypeWriter.svelte'
   import { links, talks } from '$lib/data.ts'
 </script>
 
@@ -10,7 +11,7 @@
 <p text='center'>カワリミ人形</p>
 
 <blockquote>
-  は〜〜安全圏から他人の恋愛のゴタゴタを観測して楽しみてぇな〜〜〜
+  <TypeWriter text='は〜〜安全圏から他人の恋愛のゴタゴタを観測して楽しみてぇな〜〜〜' />
   <footer>
     - kawarimidoll,
     <a href='https://bsky.app/profile/kawarimidoll.bsky.social/post/3l5tr342umc2o' target='_blank'>2024-10-06</a>
