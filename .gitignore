@@ -1,4 +1,6 @@
+# Local
 node_modules
+.eslintcache
 
 # Output
 .output
