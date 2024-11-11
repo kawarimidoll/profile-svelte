@@ -2,8 +2,8 @@
   import { links, talks } from '$lib/data.ts'
 </script>
 
-<h1>kawarimidoll</h1>
-<p>カワリミ人形</p>
+<h1 text='center'>kawarimidoll</h1>
+<p text='center'>カワリミ人形</p>
 
 <h2 id='links'>Links</h2>
 <dl>
