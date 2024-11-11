@@ -2,8 +2,20 @@
   import { links, talks } from '$lib/data.ts'
 </script>
 
+<figure>
+  <img src='https://avatars.githubusercontent.com/u/8146876' alt='avatar' class='rounded-full size-64' />
+</figure>
+
 <h1 text='center'>kawarimidoll</h1>
 <p text='center'>カワリミ人形</p>
+
+<blockquote>
+  は〜〜安全圏から他人の恋愛のゴタゴタを観測して楽しみてぇな〜〜〜
+  <footer>
+    - kawarimidoll,
+    <a href='https://bsky.app/profile/kawarimidoll.bsky.social/post/3l5tr342umc2o' target='_blank'>2024-10-06</a>
+  </footer>
+</blockquote>
 
 <h2 id='links'>Links</h2>
 <dl>
