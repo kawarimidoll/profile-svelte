@@ -3,6 +3,10 @@
   import { links, talks } from '$lib/data.ts'
 </script>
 
+{#snippet exLink(url, title)}
+  <a href={url} target='_blank'>{title || url}</a>
+{/snippet}
+
 <figure>
   <img src='https://avatars.githubusercontent.com/u/8146876' alt='avatar' class='size-64 rounded-full' />
 </figure>
@@ -14,7 +18,7 @@
   <TypeWriter text='は〜〜安全圏から他人の恋愛のゴタゴタを観測して楽しみてぇな〜〜〜' />
   <footer>
     - kawarimidoll,
-    <a href='https://bsky.app/profile/kawarimidoll.bsky.social/post/3l5tr342umc2o' target='_blank'>2024-10-06</a>
+    {@render exLink('https://bsky.app/profile/kawarimidoll.bsky.social/post/3l5tr342umc2o', '2024-10-06')}
   </footer>
 </blockquote>
 
@@ -22,7 +26,7 @@
 <dl>
   {#each links as { name, url }}
     <dt>{name}</dt>
-    <dd><a href={url} target='_blank'>{url}</a></dd>
+    <dd>{@render exLink(url)}</dd>
   {/each}
 </dl>
 
@@ -31,8 +35,8 @@
   {#each talks as { name, event, slides }}
     <dt>{name}</dt>
     <dd>
-      <a href={event} target='_blank'>event details</a>
-      <a href={slides} target='_blank'>slides</a>
+      {@render exLink(event, 'event details')}
+      {@render exLink(slides, 'slides')}
     </dd>
   {/each}
 </dl>
