@@ -4,7 +4,7 @@
 </script>
 
 <figure>
-  <img src='https://avatars.githubusercontent.com/u/8146876' alt='avatar' class='rounded-full size-64' />
+  <img src='https://avatars.githubusercontent.com/u/8146876' alt='avatar' class='size-64 rounded-full' />
 </figure>
 
 <h1 text='center'>kawarimidoll</h1>
