@@ -1,9 +1,9 @@
-<script>
+<script lang='ts'>
   import TypeWriter from '$lib/components/TypeWriter.svelte'
-  import { links, talks } from '$lib/data.ts'
+  import { links, talks } from '$lib/data'
 </script>
 
-{#snippet exLink(url, title)}
+{#snippet exLink(url: string, title?: string)}
   <a href={url} target='_blank'>{title || url}</a>
 {/snippet}
 
