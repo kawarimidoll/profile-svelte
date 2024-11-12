@@ -1,9 +1,9 @@
 <script>
-  const { text, interval = 80, stopTick = 30 } = $props()
+  const { text = '', interval = 80, stopTick = 30 } = $props()
 
   const chars = [...text]
   let typed = $state('')
-  let rest = $state('')
+  let rest = $state(text)
   let typing = $state(true)
 
   let cnt = $state(chars.length + stopTick)
