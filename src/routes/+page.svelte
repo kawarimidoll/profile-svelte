@@ -11,8 +11,8 @@
   <img src='https://avatars.githubusercontent.com/u/8146876' alt='avatar' class='size-64 rounded-full' />
 </figure>
 
-<h1 text='center'>kawarimidoll</h1>
-<p text='center'>カワリミ人形</p>
+<h1 uno-text='center'>kawarimidoll</h1>
+<p uno-text='center'>カワリミ人形</p>
 
 <blockquote>
   <TypeWriter text='は〜〜安全圏から他人の恋愛のゴタゴタを観測して楽しみてぇな〜〜〜' />
