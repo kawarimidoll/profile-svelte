@@ -11,6 +11,7 @@ const config = {
     // https://svelte.dev/docs/kit/adapter-static#GitHub-Pages
     adapter: adapter({ fallback: '404.html' }),
     paths: {
+      // eslint-disable-next-line node/prefer-global/process
       base: process.argv.includes('dev') ? '' : process.env.BASE_PATH,
     },
   },
