@@ -1,5 +1,6 @@
 <script lang='ts'>
   import BlobNeon from '$lib/components/BlobNeon.svelte'
+  import CircleText from '$lib/components/CircleText.svelte'
   import TypeWriter from '$lib/components/TypeWriter.svelte'
   import { links, talks } from '$lib/data'
   import { toggleMode } from 'mode-watcher'
@@ -16,6 +17,7 @@
             class="bg-[url('https://avatars.githubusercontent.com/u/8146876')]">
     </button>
     <BlobNeon />
+    <CircleText />
   </div>
 
   <h1 uno-text='center 4xl' uno-font-medium uno-mb-5>kawarimidoll</h1>
