@@ -1,4 +1,8 @@
 {
   "$schema": "https://inlang.com/schema/inlang-message-format",
-  "hello_world": "Hello, {name} from ja!"
+  "repo_link_pre": "このページのソースコードは",
+  "repo_link_text": "このレポジトリ",
+  "repo_link_post": "で見られます。",
+  "main_name": "カワリミ人形",
+  "sub_name": "kawarimidoll"
 }

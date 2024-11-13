@@ -3,6 +3,7 @@
   import CircleText from '$lib/components/CircleText.svelte'
   import TypeWriter from '$lib/components/TypeWriter.svelte'
   import { links, talks } from '$lib/data'
+  import * as m from '$lib/paraglide/messages.js'
   import { toggleMode } from 'mode-watcher'
 </script>
 
@@ -20,8 +21,8 @@
     <CircleText />
   </div>
 
-  <h1 uno-text='center 4xl' uno-font-medium uno-mb-5>kawarimidoll</h1>
-  <p uno-text-center>カワリミ人形</p>
+  <h1 uno-text='center 4xl' uno-font-medium uno-mb-5>{m.main_name()}</h1>
+  <p uno-text-center>{m.sub_name()}</p>
 
   <blockquote uno-italic uno-m-0 uno-py-0 uno-px-4 uno-border='0 l-4 solid color-zinc-400 dark:color-slate-400'>
     <TypeWriter text='は〜〜安全圏から他人の恋愛のゴタゴタを観測して楽しみてぇな〜〜〜' />
@@ -52,7 +53,7 @@
 </main>
 
 <footer uno-text='sm center zinc-400 dark:slate-400' uno-pb-4>
-  You can find the source code for this page in
-  {@render exLink('https://github.com/kawarimidoll/profile-svelte', 'this repository')}
-  .
+  {m.repo_link_pre()}
+  {@render exLink('https://github.com/kawarimidoll/profile-svelte', m.repo_link_text())}
+  {m.repo_link_post()}
 </footer>
