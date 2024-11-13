@@ -32,13 +32,13 @@ div {
     translate: 0% 4%;
     border-radius: 20% 71% 47% 70% / 81% 15% 22% 54%;
     rotate: 41deg;
-    scale: 1.15;
+    scale: 1.05;
   }
   100% {
     translate: -11% 8%;
     border-radius: 100% 75% 92% 74% / 60% 80% 30% 70%;
     rotate: -60deg;
-    scale: 1.05;
+    scale: 0.95;
   }
 }
 </style>

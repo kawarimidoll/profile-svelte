@@ -10,7 +10,7 @@
   <a href={url} target='_blank' class='break-all text-blue-600 hover:animate-pulse dark:text-blue-500'>{title || url}</a>
 {/snippet}
 
-<main uno-mx-auto uno-mt-6 uno-mb-2 uno-p-8 uno-border='~ solid color-zinc-400 dark:color-slate-400' uno-max-w-screen-sm uno-font='normal sans' uno-text-lg>
+<main uno-mx-auto uno-mt-6 uno-mb-2 uno-p-8 uno-border='~ solid color-zinc-400 dark:color-slate-400' uno-max-w-screen-sm uno-font-normal uno-text-lg>
   <div uno-flex='~' uno-justify='center' uno-align='center' uno-m-0 uno-mb-2>
     <button aria-label='avatar image' onclick={toggleMode} uno-border-none
             uno-size-64 uno-rounded-full uno-bg='center cover'
