@@ -1,11 +1,12 @@
 <script lang='ts'>
+  import BlobNeon from '$lib/components/BlobNeon.svelte'
   import TypeWriter from '$lib/components/TypeWriter.svelte'
   import { links, talks } from '$lib/data'
   import { toggleMode } from 'mode-watcher'
 </script>
 
 {#snippet exLink(url: string, title?: string)}
-  <a href={url} target='_blank' class='break-all text-blue-600 dark:text-blue-500'>{title || url}</a>
+  <a href={url} target='_blank' class='break-all text-blue-600 hover:animate-pulse dark:text-blue-500'>{title || url}</a>
 {/snippet}
 
 <main uno-mx-auto uno-mt-6 uno-mb-2 uno-p-8 uno-border='~ solid color-zinc-400 dark:color-slate-400' uno-max-w-screen-sm uno-font='normal sans' uno-text-lg>
@@ -14,6 +15,7 @@
             uno-size-64 uno-rounded-full uno-bg='center cover'
             class="bg-[url('https://avatars.githubusercontent.com/u/8146876')]">
     </button>
+    <BlobNeon />
   </div>
 
   <h1 uno-text='center 4xl' uno-font-medium uno-mb-5>kawarimidoll</h1>
