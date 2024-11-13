@@ -49,6 +49,6 @@
 
 <footer uno-text='sm center zinc-400 dark:slate-400' uno-pb-4>
   You can find the source code for this page in
-  {@render exLink('https://github.com/kawarimidoll/kawarimidoll.github.io', 'this repository')}
+  {@render exLink('https://github.com/kawarimidoll/profile-svelte', 'this repository')}
   .
 </footer>
