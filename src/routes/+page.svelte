@@ -1,6 +1,7 @@
 <script lang='ts'>
   import TypeWriter from '$lib/components/TypeWriter.svelte'
   import { links, talks } from '$lib/data'
+  import { toggleMode } from 'mode-watcher'
 </script>
 
 {#snippet exLink(url: string, title?: string)}
@@ -14,6 +15,7 @@
 
   <h1 uno-text='center 4xl' uno-font-medium uno-mb-5>kawarimidoll</h1>
   <p uno-text-center>カワリミ人形</p>
+  <button onclick={toggleMode}>Toggle Mode</button>
 
   <blockquote uno-italic uno-m-0 uno-py-0 uno-px-4 uno-border='0 l-4 solid'>
     <TypeWriter text='は〜〜安全圏から他人の恋愛のゴタゴタを観測して楽しみてぇな〜〜〜' />
