@@ -2,14 +2,11 @@
   import TypeWriter from '$lib/components/TypeWriter.svelte'
   import { links, talks } from '$lib/data'
   import { toggleMode } from 'mode-watcher'
-  import { Body } from 'svelte-body'
 </script>
 
 {#snippet exLink(url: string, title?: string)}
   <a href={url} target='_blank' class='break-all text-blue-600 dark:text-blue-500'>{title || url}</a>
 {/snippet}
-
-<Body class='mx-4 bg-slate-50 text-slate-800 transition-colors dark:bg-slate-900 dark:text-slate-50' />
 
 <main uno-mx-auto uno-mt-6 uno-mb-2 uno-p-8 uno-border='~ solid color-zinc-400 dark:color-slate-400' uno-max-w-screen-sm uno-font='normal sans' uno-text-lg>
   <div uno-flex='~' uno-justify='center' uno-align='center' uno-m-0 uno-mb-2>
