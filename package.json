@@ -17,7 +17,7 @@
     "mode-watcher": "^1.0.0"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^6.0.0",
+    "@antfu/eslint-config": "^7.0.0",
     "@sveltejs/adapter-auto": "^7.0.0",
     "@sveltejs/adapter-static": "^3.0.6",
     "@sveltejs/kit": "^2.8.0",
