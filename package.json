@@ -33,7 +33,7 @@
     "svelte-body": "^2.0.0",
     "svelte-check": "^4.0.7",
     "svelte-eslint-parser": "^1.0.0",
-    "svelte-meta-tags": "^4.0.4",
+    "svelte-meta-tags": "^5.0.0",
     "typescript": "^6.0.0",
     "typescript-svelte-plugin": "^0.3.43",
     "unocss": "^66.0.0",
